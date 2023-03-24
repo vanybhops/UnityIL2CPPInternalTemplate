@@ -1,4 +1,4 @@
-﻿# UnityIL2CPPInternalTemplate
+# UnityIL2CPPInternalTemplate
 
 | Features ||
 | --- | --- |
