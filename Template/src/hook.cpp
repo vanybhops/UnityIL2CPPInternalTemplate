@@ -5,16 +5,6 @@
 
 namespace Hooks
 {
-    Hook::Hook()
-    {
-        name = "";
-        fAddress = 0x0;
-        hkAddress = 0x0;
-        oAddress = 0x0;
-        enabled = false;
-        created = true;
-    }
-
     Hook::Hook(std::string _name, uintptr_t _fAddress, uintptr_t _hkAddress, uintptr_t _oAddress)
     {
         name = _name;
