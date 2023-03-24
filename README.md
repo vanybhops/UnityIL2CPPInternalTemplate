@@ -2,6 +2,6 @@
 
 | Features ||
 | --- | --- |
-| Hook Manager |- [x]|
-| Gui Manager |- [x]|
-| Utils |- [ ]|
+| Hook Manager |✔|
+| Gui Manager |✔|
+| Utils |❌|
