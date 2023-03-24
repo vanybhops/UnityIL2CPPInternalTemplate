@@ -1,7 +1,7 @@
 # UnityIL2CPPInternalTemplate
 
-  | Features |
-  | --- | --- |
-  | Hook Manager |- [x]|
-  | Gui Manager |- [x]|
-  | Utils |- [ ]|
+| Features ||
+| --- | --- |
+| Hook Manager |- [x]|
+| Gui Manager |- [x]|
+| Utils |- [ ]|
