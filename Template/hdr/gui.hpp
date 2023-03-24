@@ -1,3 +1,4 @@
+// GUI.HPP
 #pragma once
 
 #include "../ext/imgui/imgui.h"
@@ -10,4 +11,4 @@
 
 void InitMenu();
 void Menu(bool);
-void createButton(std::string, bool, Hooks::Hook*);
+void createButton(Hooks::Hook*, std::string, bool);

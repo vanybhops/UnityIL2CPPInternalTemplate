@@ -12,14 +12,14 @@ void Menu(bool render)
     if (Config::bButtons)                                  //CHECKS FOR CONFIG IF AUTOMATIC CREATION OF BUTTONS IS ENABLED
     for (Hooks::Hook* hook : Globals::HookManager.gHooks)  //CREATE A BUTTON FOR EACH HOOK
         createButton(
+            hook,
             hook->name, 
-            hook->enabled,
-            hook
+            hook->enabled
         );
     
 }
 
-void createButton(std::string name, bool toggle, Hooks::Hook* hook) 
+void createButton(Hooks::Hook* hook, std::string name, bool toggle)
 {
     if (ImGui::Checkbox(name.c_str(), &toggle))
         hook->enabled ? hook->Disable() : hook->Enable();

@@ -243,6 +243,5 @@
   <ItemGroup>
     <None Include="..\.gitignore" />
     <None Include="..\README.md" />
-    <None Include="packages.config" />
   </ItemGroup>
 </Project>
