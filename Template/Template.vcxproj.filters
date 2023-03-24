@@ -108,6 +108,36 @@
     <ClCompile Include="src\utils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="ext\minhook\src\hde\hde32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\minhook\src\hde\hde64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\minhook\src\buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\minhook\src\hook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\minhook\src\trampoline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\kiero\minhook\src\hde\hde32.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\kiero\minhook\src\hde\hde64.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\kiero\minhook\src\buffer.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\kiero\minhook\src\hook.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ext\kiero\minhook\src\trampoline.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="hdr\hook.hpp">
@@ -239,9 +269,77 @@
     <ClInclude Include="hdr\config.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="ext\minhook\dll_resources\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\minhook\include\MinHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\minhook\src\hde\hde32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\minhook\src\hde\hde64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\minhook\src\hde\pstdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\minhook\src\hde\table32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\minhook\src\hde\table64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\minhook\src\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\minhook\src\trampoline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\kiero\minhook\dll_resources\resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\kiero\minhook\include\MinHook.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\kiero\minhook\src\hde\hde32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\kiero\minhook\src\hde\hde64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\kiero\minhook\src\hde\pstdint.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\kiero\minhook\src\hde\table32.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\kiero\minhook\src\hde\table64.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\kiero\minhook\src\buffer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ext\kiero\minhook\src\trampoline.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\.gitignore" />
     <None Include="..\README.md" />
+    <None Include="ext\minhook\dll_resources\MinHook.def">
+      <Filter>Source Files</Filter>
+    </None>
+    <None Include="ext\kiero\minhook\dll_resources\MinHook.def">
+      <Filter>Source Files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="ext\minhook\dll_resources\MinHook.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+    <ResourceCompile Include="ext\kiero\minhook\dll_resources\MinHook.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>
