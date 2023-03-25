@@ -3,6 +3,7 @@
 | Features ||
 | --- | --- |
 | Hook Manager |✔|
+| Game functions Manager |❌| //soon
 | Gui Manager |✔|
 | Utils |❌||
 
